@@ -22,6 +22,9 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     mavenCentral()
     jcenter()
+    maven {
+        url "artifactregistry://asia-south1-maven.pkg.dev/dev-application-294611/maven-qe"
+    }
 }
 
 dependencies {
